@@ -1,0 +1,26 @@
+DRIVAERML RUN 1 — ASSET ATTRIBUTION
+
+This Site includes a display-optimized point-cloud adaptation of:
+
+  DrivAerML Run 1 geometry (run_1/drivaer_1.stl)
+  from “DrivAerML: High-Fidelity Computational Fluid Dynamics Dataset
+  for Road-Car External Aerodynamics” by Ashton et al. (2024).
+
+Source dataset:
+https://huggingface.co/datasets/neashton/drivaerml
+
+Exact source revision:
+https://huggingface.co/datasets/neashton/drivaerml/resolve/7a5c0948ce27be709b1116a3a190f806e7a8f79f/run_1/drivaer_1.stl
+
+Changes made:
+73,600 points were sampled directly from the source mesh triangles in
+proportion to surface area, deterministically reordered, normalized, and
+quantized to unsigned 16-bit XYZ coordinates for efficient GPU upload. The
+quantization error is below 1/65,535 of each normalized axis. The same real
+geometry was rendered into trip-pointcloud-v4.webp.
+No procedural or generated geometry was added.
+
+The adapted point-cloud assets (drivaerml-run1-73600.q16 and
+trip-pointcloud-v4.webp) are distributed under the Creative Commons
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license:
+https://creativecommons.org/licenses/by-sa/4.0/

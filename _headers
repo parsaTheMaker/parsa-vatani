@@ -1,0 +1,11 @@
+/drivaerml-run1-73600.q16
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.gif
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable
